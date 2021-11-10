@@ -77,10 +77,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digaus/community-capacitor-wifi"
+    "url": "https://github.com/connectsense/community-capacitor-wifi"
   },
   "bugs": {
-    "url": "https://github.com/digaus/community-capacitor-wifi/issues"
+    "url": "https://github.com/connectsense/community-capacitor-wifi/issues"
   },
   "dependencies": {
     "node-wifi": "~2.0.15"
