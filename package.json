@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/wifi",
+  "name": "@connectsense/capacitor-wifi",
   "version": "0.0.1",
   "description": "Wifi Plugin for iOS, Android and Electron",
   "main": "dist/plugin.cjs.js",
