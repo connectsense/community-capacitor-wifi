@@ -52,7 +52,7 @@
     "dist/",
     "ios/Plugin/",
     "electron/",
-    "CapacitorCommunityWifi.podspec"
+    "ConnectsenseCapacitorWifi.podspec"
   ],
   "keywords": [
     "capacitor",
