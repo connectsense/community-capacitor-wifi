@@ -104,9 +104,6 @@ public class WifiService {
                 if (password != null && password.length() > 0) {
                     builder.setWpa2Passphrase(password);
                 }
-                if (isHiddenSsid) {
-                    builder.setIsHiddenSsid(true);
-                }
 
                 WifiNetworkSpecifier wifiNetworkSpecifier = builder.build();
                 NetworkRequest.Builder networkRequestBuilder = new NetworkRequest.Builder();
