@@ -161,9 +161,6 @@ public class WifiService {
 
     public void disconnect(PluginCall call) {
         this.savedCall = call;
-        if (API_VERSION < 29) {
-            wifiManager.disconnect();
-        }
         this.releasePreviousConnection();
         call.success();
     }
