@@ -179,15 +179,12 @@ public class WifiService {
 
         String ssid = call.getString("ssid");
         String password =  call.getString("password");
-        boolean isHiddenSsid = call.getBoolean("isHiddenSsid");
 
         WifiConfiguration conf = new WifiConfiguration();
         conf.SSID = "\"" + ssid + "\"";   // Please note the quotes. String should contain ssid in quotes
         conf.status = WifiConfiguration.Status.ENABLED;
         conf.priority = 4000;
-        if (isHiddenSsid) {
-            conf.hiddenSSID = true;
-        }
+
         if (password != null) {
             conf.allowedProtocols.set(WifiConfiguration.Protocol.RSN);
             conf.allowedProtocols.set(WifiConfiguration.Protocol.WPA);
